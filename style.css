@@ -859,9 +859,11 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
+  width: 100%;
 }
 
 .detail-img-sm {
+  width: 100%;
   height: 180px;
   background-size: cover;
   background-position: center;
@@ -1901,9 +1903,8 @@ p {
     gap: 30px;
   }
 
-  .hotel-detail-grid-reverse {
-    display: flex;
-    flex-direction: column-reverse;
+  .hotel-detail-grid-reverse .hotel-detail-images {
+    order: 1;
   }
 
   .hotel-detail-hero {
@@ -1920,6 +1921,11 @@ p {
 
   .detail-img-sm {
     height: 140px;
+    width: 100%;
+  }
+
+  .detail-img-sub {
+    width: 100%;
   }
 }
 
