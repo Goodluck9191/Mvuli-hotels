@@ -35,15 +35,10 @@ A modern and responsive hotel website designed for **Mvuli Hotels**, showcasing 
 
 ```text
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
+├── style.css
+├── script.js
 ├── images/
-│   ├── hero/
-│   ├── rooms/
-│   ├── facilities/
-│   └── gallery/
+│  
 └── README.md
 ```
 
